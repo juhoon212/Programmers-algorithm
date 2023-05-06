@@ -1,12 +1,10 @@
 package Programmers;
 
-import java.util.Arrays;
-
-public class num4 {
+public class Num4 {
 
     // 다시 풀기
     public static void main(String[] args) {
-        num4 n = new num4();
+        Num4 n = new Num4();
         int[] solution = n.solution(new String[]{"..........", ".....#....", "......##..", "...##.....", "....#....."});
         for (int i : solution) {
             System.out.println(i);
