@@ -15,7 +15,7 @@ public class Num6 {
 
         for (int i = 0; i < targets.length; i++) { // targets
 
-            for (int l = 0; l < targets[i].length(); l++) { // char
+            for (int l = 0; l < targets[i].length(); l++) {
                 int k = 101;
 
                 for (String j : set) { // set
