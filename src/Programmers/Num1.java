@@ -34,6 +34,14 @@ public class Num1 {
         return answer;
     }
 
+    public static void main(String[] args) {
+        Num1 n1 = new Num1();
+        String[] solution = n1.solution(new String[]{"mumu", "soe", "poe", "kai", "mine"}, new String[]{"kai", "kai", "mine", "mine"});
+        for (String s : solution) {
+            System.out.println(s);
+        }
+    }
+
 
 
 
