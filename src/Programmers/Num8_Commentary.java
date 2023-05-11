@@ -19,4 +19,6 @@ public class Num8_Commentary {
         return answer.toString();
     }
 
+    //"aukks"	"wbqd"	5	"happy"
+
 }
