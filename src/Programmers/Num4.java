@@ -23,7 +23,7 @@ public class Num4 {
             for(int j=0; j<wallpaper[i].length();j++){
                 if(wallpaper[i].charAt(j)=='#'){
                     minX = Math.min(minX,i); // 1
-                    minY = Math.min(minY,j); //5
+                    minY = Math.min(minY,j); // 5
                     maxX = Math.max(maxX,i); // 1
                     maxY = Math.max(maxY,j); // 5
                     // 계속 반복해서 비교
