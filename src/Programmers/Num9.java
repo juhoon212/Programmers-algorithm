@@ -1,13 +1,11 @@
 package Programmers;
 
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-=======
-import java.util.*;
->>>>>>> 8bc844d771cba7e15eb04198ac398f24ba2e3d7a
+
 
 public class Num9 {
     public int[] solution(String today, String[] terms, String[] privacies) {
@@ -22,7 +20,7 @@ public class Num9 {
             termsMap.put(split[0], Integer.parseInt(split[1]));
         }
 
-<<<<<<< HEAD
+
         for (int i = 0; i < privacies.length; i++) {
             String[] prvSplit = privacies[i].split(" ");
 
@@ -30,7 +28,7 @@ public class Num9 {
                 answer.add(i+1);
             }
         }
-=======
+
             for (int i = 0; i < privacies.length; i++) {
                 String[] prvSplit = privacies[i].split(" ");
 
@@ -38,7 +36,7 @@ public class Num9 {
                     answer.add(i+1);
                 }
             }
->>>>>>> 8bc844d771cba7e15eb04198ac398f24ba2e3d7a
+
         return answer.stream().mapToInt(integer -> integer).toArray();
     }
 

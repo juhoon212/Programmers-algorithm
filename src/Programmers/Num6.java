@@ -1,15 +1,5 @@
 package Programmers;
 
-<<<<<<< HEAD
-public class Num6 {
-
-    public int[] solution(String[] keymap, String[] targets) {
-
-
-        int[] answer = {};
-        return answer;
-    }
-=======
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -53,8 +43,4 @@ public class Num6 {
             System.out.println(i);
         }
     }
-
-
-
->>>>>>> 8bc844d771cba7e15eb04198ac398f24ba2e3d7a
 }
