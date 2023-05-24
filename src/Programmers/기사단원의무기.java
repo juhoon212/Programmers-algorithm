@@ -5,6 +5,8 @@ import java.util.List;
 
 public class 기사단원의무기 {
 
+    // 시간복잡도 추가로 제곱근을 이용해서 풀기!!
+
     public static int solution(int number, int limit, int power) {
 
         int arr[] = new int[number + 1];
