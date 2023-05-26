@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.level1;
 
 public class Num8_Commentary {
     public String solution(String s, String skip, int index) {

@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.level1;
 
 public class x만큼간격이있는n개의숫자 {
 

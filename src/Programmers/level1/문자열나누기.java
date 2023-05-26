@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.level1;
 
 public class 문자열나누기 {
     // 첫 글자와 같은 문자열이 다음에 나온 갯수가 첫 글자와 다른 문자열의 갯수가 같다면 멈추고 문자열 분리

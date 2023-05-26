@@ -1,4 +1,4 @@
-package Programmers;
+package Programmers.level1;
 
 public class Num4 {
 
