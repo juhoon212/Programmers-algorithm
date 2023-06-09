@@ -14,7 +14,7 @@ public class 숫자짝궁 {
         int[] yArr = new int[10];
 
         for (char c : X.toCharArray()) {
-            xArr[c - 48]++;
+            xArr[c - 48]++; // 아스키 코드 48 -> 10진수 0
 
         }
 
