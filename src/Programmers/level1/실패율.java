@@ -45,7 +45,7 @@ public class 실패율 {
         int nPlayers = lastStages.length;
         int[] nStagePlayers = new int[N + 2]; // length = 7
         for (int stage : lastStages) {
-            nStagePlayers[stage] += 1;
+            nStagePlayers[stage] += 1; // 0,1,3,2,1,0,1
         }
 
         int remainingPlayers = nPlayers;
@@ -57,6 +57,11 @@ public class 실패율 {
             Stage s = new Stage(id, failure);
             stages.add(s);
         }
+
+        for (Stage stage : stages) {
+            System.out.println(stage.toString());
+        }
+
         Collections.sort(stages, Collections.reverseOrder());
 
         int[] answer = new int[N];
@@ -84,6 +89,14 @@ public class 실패율 {
                 return 1;
             }
             return 0;
+        }
+
+        @Override
+        public String toString() {
+            return "Stage{" +
+                    "id=" + id +
+                    ", failure=" + failure +
+                    '}';
         }
     }
 
